@@ -39,8 +39,8 @@
         <span class="d-none d-lg-block">
           <img
             class="img-fluid img-profile rounded-circle mx-auto mb-2"
-            src="img/image_laura.png"
-            alt=""
+            src="img/image_laura.JPG"
+            alt="profile image"
           />
         </span>
       </a>
@@ -123,27 +123,51 @@
             because I approach problems differently.
           </p>
           <div class="social-icons">
-            <a href="https://www.linkedin.com/in/devlaura/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/devlaura/"
+              target="_blank"
+              data-toggle="tooltip"
+              title="LinkedIn"
+            >
               <i class="fab fa-linkedin-in"></i>
             </a>
-            <a href="https://github.com/lauras5" target="_blank">
+            <a
+              href="https://github.com/lauras5"
+              target="_blank"
+              data-toggle="tooltip"
+              title="GitHub"
+            >
               <i class="fab fa-github"></i>
             </a>
-            <a href="https://twitter.com/nodejs_is_life" target="_blank">
+            <a
+              href="https://twitter.com/nodejs_is_life"
+              target="_blank"
+              data-toggle="tooltip"
+              title="Twitter"
+            >
               <i class="fab fa-twitter"></i>
             </a>
             <a
               href="https://www.instagram.com/the_coding_witch/?hl=en"
               target="_blank"
+              data-toggle="tooltip"
+              title="Instagram"
             >
               <i class="fab fa-instagram"></i>
             </a>
-            <a href="https://technolochicas.org/filtro/salcido" target="_blank">
+            <a
+              href="https://technolochicas.org/filtro/salcido"
+              target="_blank"
+              data-toggle="tooltip"
+              title="TECHNOLOchicas"
+            >
               <i class="fas fa-venus"></i>
             </a>
             <a
               href="https://solarsystem1.jpl.nasa.gov/ssa/biography.cfm?US_ID=2130"
               target="_blank"
+              data-toggle="tooltip"
+              title="NASA Solar System Ambassador"
             >
               <i class="fas fa-moon"></i>
             </a>
@@ -326,28 +350,22 @@
               <i class="fab fa-github-alt"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-html5"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-css3-alt"></i>
+              <i class="fab fa-react"></i>
             </li>
             <li class="list-inline-item">
               <i class="fab fa-js-square"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-angular"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-react"></i>
-            </li>
-            <li class="list-inline-item">
               <i class="fab fa-node-js"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-wordpress"></i>
+              <i class="fab fa-npm"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-npm"></i>
+              <i class="fab fa-html5"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-css3-alt"></i>
             </li>
             <li class="list-inline-item">
               <i class="fab fa-linux"></i>
@@ -356,10 +374,13 @@
               <i class="fab fa-php"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-java"></i>
+              <i class="fab fa-angular"></i>
             </li>
             <li class="list-inline-item">
               <i class="fab fa-aws"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fas fa-database"></i>
             </li>
           </ul>
 
@@ -439,7 +460,12 @@
                 >Trivia Game</a
               ><br />
               <a href="https://lauras5.github.io/TriviaGame/" target="_blank">
-                <img src="./img/trivia/full.gif" width="250" height="160" /> </a
+                <img
+                  src="./img/trivia/full.gif"
+                  alt="trivia gif"
+                  width="250"
+                  height="160"
+                /> </a
               ><br />
               <small
                 ><a href="https://github.com/lauras5/TriviaGame" target="_blank"
@@ -455,6 +481,7 @@
               <a href="https://totsapp.herokuapp.com/" target="_blank">
                 <img
                   src="./img/carousel/Large GIF (1098x626).gif"
+                  alt="tots app gif"
                   width="250"
                   height="160"
                 /> </a
@@ -479,6 +506,7 @@
               >
                 <img
                   src="./img/todo_angular/Large GIF (1058x660).gif"
+                  alt="todo list gif"
                   width="250"
                   height="150"
                 />
@@ -506,6 +534,7 @@
               <a href="https://fusionofideas.com/gifting" target="_blank">
                 <img
                   src="./img/gifting/Large GIF (1204x672).gif"
+                  alt="gifting page gif"
                   width="250"
                   height="160"
                 /> </a
@@ -519,6 +548,7 @@
               <a href="https://lauras5.github.io/Get-a-Gif/" target="_blank">
                 <img
                   src="./img/gifs/Large GIF (1012x566).gif"
+                  alt="gif app img"
                   width="250"
                   height="150"
                 />
@@ -544,5 +574,10 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
   </body>
 </html>
