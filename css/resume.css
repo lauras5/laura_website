@@ -176,10 +176,38 @@ section.resume-section .resume-item .resume-date {
 
 a {
   color: #b47272;
+  text-decoration: none;
 }
 
 a:hover,
 a:focus,
 a:active {
   color: #b47272;
+  text-decoration: none;
+}
+
+.portfolio-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.portfolio-div > li {
+  margin-top: 10px;
+}
+.portfolio-div > li > a {
+  color: #b57172;
+  font-size: 26px;
+}
+.portfolio-div > li > small > a {
+  color: #343b3f;
+  letter-spacing: 1px;
+}
+.portfolio-div > li > a:hover {
+  color: #835051;
+  font-size: 27px;
+  text-shadow: black;
+}
+.portfolio-div > li > a > img {
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
